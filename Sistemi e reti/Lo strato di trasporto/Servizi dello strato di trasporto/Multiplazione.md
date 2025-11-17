@@ -1,0 +1,2 @@
+I dati prodotti da un processo mittente vengono suddivisi in segmenti nella cui intestazione viene inserito il [[Numero di porta]] sorgente e il numero i porta di destinazione, in questo modo è univoca quale sia il [[Canale Logico]] su cui deve essere spedito il segmento.
+Questa tecnica di inserire il numero di porta sorgente e di destinazione permette di generare un flusso multiplato.

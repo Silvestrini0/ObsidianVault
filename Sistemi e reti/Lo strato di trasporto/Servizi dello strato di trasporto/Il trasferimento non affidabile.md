@@ -1,0 +1,2 @@
+Il trasporto non affidabile garantisce solo l'indirizzamento ( il mittente non saprà mai se ciò che ha spedito arriva a destinazione).
+Per questo tipo di trasferimento viene utilizzato il [[Protocollo UDP]].

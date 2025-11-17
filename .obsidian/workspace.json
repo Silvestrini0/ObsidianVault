@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "45cfc769eeae8c85",
+    "type": "split",
+    "children": [
+      {
+        "id": "550cd744465f936e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b44815d24f348778",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ObsidianGitRepo/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7eda2a2872914050",
+    "type": "split",
+    "children": [
+      {
+        "id": "18632f3976cd5dda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e84fa18d541eb751",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "d69f662f28ad15d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "07114dfe65cf2c53",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a31a9a2766f7107b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6cffe98ee7341b25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67c259294ed18d34",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ObsidianGitRepo/Lo strato di trasporto/Servizi dello strato di trasporto/I servizi dello strato di trasporto.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti a I servizi dello strato di trasporto"
+            }
+          },
+          {
+            "id": "72e9c3b4f49769c6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ObsidianGitRepo/Lo strato di trasporto/Servizi dello strato di trasporto/Strato di Trasporto.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita da Strato di Trasporto"
+            }
+          },
+          {
+            "id": "348f44a699fe8e7d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "4138c1c8bcd1997d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ObsidianGitRepo/README.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura di README"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e84fa18d541eb751",
+  "lastOpenFiles": [
+    "README.md",
+    "Senza nome",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito/Server di Host caching.md",
+    "Senza nome.base",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito/Architettura di un'app di rete.md",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito/Client-Server.md",
+    "ObsidianGitRepo/Italiano/Il decadentismo.md",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer.md",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer decentralizzato.md",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer centralizzato.md",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito/Peer-To-Peer/Messaggi che possono scambiarsi i peer.md",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito/Peer-To-Peer",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di esecuzione/Programma in esecuzione locale.md",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di esecuzione/Programma in esecuzione distribuita.md",
+    "Sistemi e reti/Protocolli del livello applicazione/Tipo di esecuzione",
+    "ObsidianGitRepo/Italiano",
+    "Sistemi e reti",
+    "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/Numerazione dei segmenti.md",
+    "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Next sean.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/La finestra di trasmissione.md",
+    "Sistemi e reti/Lo strato di trasporto/TCP/Protocollo TCP.md",
+    "Sistemi e reti/Lo strato di trasporto/TCP/Intestazione TCP.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/I servizi dello strato di trasporto.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Demultiplazione.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Canale Logico.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Checksum.md",
+    "Sistemi e reti/Lo strato di trasporto/ACK/FLag ACK.md",
+    "Sistemi e reti/Lo strato di trasporto/ACK/Ack number.md",
+    "Sistemi e reti/immagini/Pasted image 20251109225305.png",
+    "Sistemi e reti/immagini/Pasted image 20251109220256.png",
+    "Sistemi e reti/immagini/Pasted image 20251109215420.png",
+    "Sistemi e reti/immagini/Pasted image 20251109213613.png",
+    "Sistemi e reti/immagini/Pasted image 20251109212634.png",
+    "Sistemi e reti/immagini/Pasted image 20251109202928.png",
+    "Sistemi e reti/immagini/Pasted image 20251109202855.png",
+    "ObsidianGitRepo/Sistemi e reti/Protocolli del livello applicazione/Tipo di programma/Programma in esecuzione distribuita.md",
+    "Sistemi e reti/Protocolli del livello applicazione/Protocolli/DNS.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Strato di Trasporto.md",
+    "ObsidianGitRepo/Lo strato di trasporto/Strato di trasporto",
+    "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione",
+    "Sistemi e reti/immagini/Pasted image 20251109205156.png",
+    "Sistemi e reti/immagini/Pasted image 20251109203121.png",
+    "Sistemi e reti/immagini/Pasted image 20251109203025.png"
+  ]
+}

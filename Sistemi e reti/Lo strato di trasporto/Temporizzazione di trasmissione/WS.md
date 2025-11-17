@@ -1,0 +1,1 @@
+WS è l'ampiezza in byte della finestra di trasmissione, il suo valore è stabilito dal destinatario che aumenta o riduce le sue dimensioni in modo dinamico a seconda dello stato in cui si trova il buffer di ricezione.
