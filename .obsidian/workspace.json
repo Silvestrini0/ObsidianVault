@@ -11,10 +11,12 @@
             "id": "b44815d24f348778",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "type": "image",
+              "state": {
+                "file": "Sistemi e reti/immagini/Pasted image 20251109225305.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251109225305"
             }
           }
         ]
@@ -138,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Sistemi e reti/immagini/Pasted image 20251109225305.png",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura"
+              "title": "Struttura di Pasted image 20251109225305"
             }
           }
         ],
@@ -167,8 +170,11 @@
   },
   "active": "b44815d24f348778",
   "lastOpenFiles": [
-    "ObsidianGitRepo/README.md",
+    "Sistemi e reti/immagini/Pasted image 20251109220256.png",
+    "Sistemi e reti/immagini/Pasted image 20251109212634.png",
+    "Sistemi e reti/immagini/Pasted image 20251109202928.png",
     "README.md",
+    "ObsidianGitRepo/README.md",
     "Senza nome",
     "Sistemi e reti/Protocolli del livello applicazione/Tipo di programma distribuito/Server di Host caching.md",
     "Senza nome.base",
@@ -199,14 +205,10 @@
     "Sistemi e reti/Lo strato di trasporto/ACK/FLag ACK.md",
     "Sistemi e reti/Lo strato di trasporto/ACK/Ack number.md",
     "Sistemi e reti/immagini/Pasted image 20251109225305.png",
-    "Sistemi e reti/immagini/Pasted image 20251109220256.png",
     "Sistemi e reti/immagini/Pasted image 20251109215420.png",
     "Sistemi e reti/immagini/Pasted image 20251109213613.png",
-    "Sistemi e reti/immagini/Pasted image 20251109212634.png",
-    "Sistemi e reti/immagini/Pasted image 20251109202928.png",
     "Sistemi e reti/immagini/Pasted image 20251109202855.png",
     "ObsidianGitRepo/Sistemi e reti/Protocolli del livello applicazione/Tipo di programma/Programma in esecuzione distribuita.md",
-    "Sistemi e reti/Protocolli del livello applicazione/Protocolli/DNS.md",
     "ObsidianGitRepo/Lo strato di trasporto/Strato di trasporto",
     "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti",
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione",
