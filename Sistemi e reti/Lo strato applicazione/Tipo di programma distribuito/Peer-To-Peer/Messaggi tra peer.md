@@ -1,4 +1,4 @@
-Sono cinque:
+I messaggi che possono scambiarsi i peer all'interno dell'architettura [[Peer-To-Peer]] sono cinque:
 - ping, è un messaggio di discover dei nodi
 - pong, è la risposta ad un ping e contiene un socket di conferma
 - query, è un messaggio per localizzare una risorsa
