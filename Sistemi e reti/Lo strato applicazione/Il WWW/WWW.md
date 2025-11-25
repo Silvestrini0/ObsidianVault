@@ -8,5 +8,5 @@ Il browser è un programma che permette di interpretare il linguaggio taggato HT
 La pagina web può incapsulare anche programmi eseguibili localmente dal browser.
 
 Le pagine web si dividono in :
-- [[Pagine Statiche]] 
-- [[Pagine Dinamiche]]
+- [[Pagina web Statica]] 
+- [[Pagina web Dinamica]]
