@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "550cd744465f936e",
+        "id": "1bc123b643eb53af",
         "type": "tabs",
         "children": [
           {
-            "id": "b44815d24f348778",
+            "id": "007cfacf941da425",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi e reti/Lo strato applicazione/Protocolli/DNS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DNS"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
             }
           }
         ]
@@ -170,8 +166,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "b44815d24f348778",
+  "active": "007cfacf941da425",
   "lastOpenFiles": [
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Client-Server.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer.md",
+    "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/Sequence number.md",
+    "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
+    "Sistemi e reti/Lo strato di trasporto/TCP/Protocollo TCP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/Protocolli del livello applicazione.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione distribuita.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTPS.md",
     "Sistemi e reti/Lo strato applicazione/Il WWW/WWW.md",
@@ -179,15 +183,11 @@
     "Sistemi e reti/Lo strato applicazione/Il WWW/URI.md",
     "Sistemi e reti/Lo strato applicazione/Il WWW/Pagina web Statica.md",
     "Sistemi e reti/Lo strato applicazione/Il WWW/Deep web.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Client-Server.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione locale.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione distribuita.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer decentralizzato.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer centralizzato.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Messaggi tra peer.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Server di Host caching.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS.md",
     "Client-Server.md",
     "Server Competenti.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Server Competenti.md",
@@ -195,10 +195,6 @@
     "Sistemi e reti/Lo strato applicazione/Protocolli/DNS",
     "Sistemi e reti/Lo strato applicazione/Protocolli/POP3.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/IMAP4.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/Protocolli del livello applicazione.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer",
     "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito",
     "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP",
