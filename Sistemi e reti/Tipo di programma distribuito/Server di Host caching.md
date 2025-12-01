@@ -1,1 +1,0 @@
-Ha la possibilità di formare delle piccole reti logiche e di comunicare ai partecipanti i relativi socket in modo che essi possano comunicare tra loro senza intermediario.
