@@ -1,10 +1,6 @@
 (hyper text transfer protocol )
-Si appoggia alla porta TCP 80.
+Il protocollo di trasporto adottato è TCP/80 tranne nella versione HTTP/3 si basa sulla porta HTTP/443.
 Trasferimento di pagine web
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> Stashed changes
 
 Serve per i dati ipertestuali formattati in un file html e utilizza un'architettura client server.
 Il segmento di trasporto utilizzato è TCP nel cui campo dati viene incapsulato il protocollo HTTP, che si chiama Messaggio HTTP. 
@@ -24,19 +20,14 @@ Nello specifico:
 - Il server incapsula la risorsa richiesta nella risposta HTTP e la invia al socket del client (file.html).
 - A seconda delle versioni del protocollo il server chiede la chiusura unilaterale della connessione.
 
-
 N.B. nel caso venisse richiesta una [[Pagina web Dinamica]] lato server , il punto 5 è leggermente differente.
 La risorsa richiesta contiene codice php che deve essere eseguito dal server prima di inviare la pagina. 
 Spesso il codice php prevede un collegamento al DBMS ( data base management system ) per richiedere informazioni relative al client che ha fatto la richiesta HTTP. In questo modo è possibile costruire un contenuto personalizzato con informazioni del client memorizzate però sul database gestito dal DBMS.
 
-
-<<<<<<< Updated upstream
-Il protocollo HTTP è definito stateless, significa che non è in grado di memorizzare sul client informazioni riguardo alle connessioni precedenti HTTP; esiste la possibilità deprecata.
-=======
 Il protocollo HTTP è definito stateless, significa che non è in grado di memorizzare sul client informazioni riguardo alle connessioni precedenti HTTP; esiste la possibilità deprecata di utilizzare i cookie. Cioè stringhe che contengono informazioni relative al client prodotte dal server e memorizzate nella cache del browser ma che non hanno a che fare col protocollo http.
 
-FORMATO DEI MESSAGGI HTTP
-RICHIESTA:
-=======
->>>>>>> parent of d9af31f (7)
->>>>>>> Stashed changes
+Esistono diversi metodi utilizzabili nelle [[richieste HTTP]]. 
+
+Fino alla 1.1 compresa il protocollo è in chiaro e testuale e non è un protocollo sicuro perchè non è crittografato.
+Dalla versione successiva alla 1.1, l'intestazione viene compressa con l'algoritmo di huffman che fa corrispondere ai caratteri che si presentano con maggior frequenza codifiche binarie più corte e ai caratteri che si presentano con minor frequenza codifiche più lunghe. la codifica è standardizzata ed è fissata dal protocollo.
+Se a seguito della compressione risulta che l'intestazione compressa è più lunga di quella testuale, allora si rinuncia alla compressione

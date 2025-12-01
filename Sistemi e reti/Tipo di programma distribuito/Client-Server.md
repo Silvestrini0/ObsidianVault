@@ -1,0 +1,1 @@
+Deve esserci sempre un processo in ascolto perpetuo sulla rete con un'ip statico pronto a fornire le risorse a cui ha acceso; ed esiste un processo che per evolvere necessita di risorse che non possiede e deve richiedere al server.

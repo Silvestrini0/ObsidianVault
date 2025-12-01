@@ -1,0 +1,3 @@
+Fino alla 1.1 compresa il protocollo è in chiaro e testuale e non è un protocollo sicuro perchè non è crittografato.
+Dalla versione successiva alla 1.1, l'intestazione viene compressa con l'algoritmo di huffman che fa corrispondere ai caratteri che si presentano con maggior frequenza codifiche binarie più corte e ai caratteri che si presentano con minor frequenza codifiche più lunghe. la codifica è standardizzata ed è fissata dal protocollo.
+Se a seguito della compressione risulta che l'intestazione compressa è più lunga di quella testuale, allora si rinuncia alla compressione
