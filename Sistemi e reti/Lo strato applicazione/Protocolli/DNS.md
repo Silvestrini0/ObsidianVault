@@ -31,3 +31,5 @@ Prima di contattare un server radice, il browser interroga il proprio DNS locale
 Può essere un server della propria rete o un servizio attivato sul router di confine. se il server DNS locale non riesce a risolvere la query DNS allora comincia ad interrogare il DNS radice.
 
 ![[Pasted image 20251202120120.png]]
+
+Es. di funzionamento del DNS nel caso peggiore
