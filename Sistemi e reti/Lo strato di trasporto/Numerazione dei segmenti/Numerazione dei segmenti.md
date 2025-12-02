@@ -13,7 +13,7 @@ Grazie al [[Sequence number]] e alla conoscenza della lunghezza del payload ( ca
 
 Nello strato di trasporto del destinatario esiste un buffer di ricezione in grado di memorizzare temporaneamente il campo dei segmenti ricevuti.
 
-Possono capitare 3 situazioni distinte:
+**Possono capitare 3 situazioni distinte:**
 - [[Sequence number]] ricevuto > di [[Sequence number]] atteso --> ho creato un buco nella continuità dei dati. Memorizzo ugualmente il segmento ma richiedo la ritrasmissione del segmento con [[Sequence number]] atteso.
 - [[Sequence number]] ricevuto < di [[Sequence number]] atteso -->  ho ricevuto un duplicato, lo scarto e richiedo la ritrasmissione del segmento [[Sequence number]] atteso.
 - [[Sequence number]] ricevuto  = [[Sequence number]] atteso --> memorizzo il segmento che risulta contiguo ai precedenti e richiedo l'invio del prossimo segmento (di cui posso calcolare il [[Sequence number]]).
