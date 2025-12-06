@@ -1,5 +1,5 @@
 (domain name system)
-Si appoggia alla** porta **UDP 53**.
+Si appoggia alla porta **UDP 53**.
 
 Sistema che permette di determinare un'indirizzo ip partendo da un'indirizzo simbolico 
 (www.scuola.it)
@@ -33,3 +33,21 @@ Può essere un server della propria rete o un servizio attivato sul router di co
 ![[Pasted image 20251202120120.png]]
 
 Es. di funzionamento del DNS nel caso peggiore
+
+immagine
+
+La modalità classica di interrogazione del sistema DNS è definita iterativa. In questo approccio il server radice è contattato dal DNS locale a cui spedisce direttamente l'indirizzo ip del server TLD competente per quella query. In questo modo la comunicazione con i DNS radice è la più breve possibile e il server radice viene liberato subito. 
+
+Esiste anche una modalità ricorsiva per interrogare il sistema dei DNS. In questo caso il server DNS locale interroga il server radice, il server radice interroga il server TLD e il server TLD interroga l'ultimo server DNS che risulta autoritativo. La risposta alla query procede in senso inverso: dal server autoritativo la risposta giunge al server TLD, e dal server TLD arriva al server radice, che invia tutto al DNS locale.
+
+Questa modalità occupa risorse elaborative del server radice in maniera eccessiva. 
+
+
+
+
+
+
+
+
+
+

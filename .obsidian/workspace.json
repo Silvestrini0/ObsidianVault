@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi e reti/Lo strato applicazione/Protocolli/DNS.md",
+                "file": "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Organizzazione dei campi in un Database DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS"
+              "title": "Organizzazione dei campi in un Database DNS"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "a31a9a2766f7107b",
@@ -170,8 +170,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "e84fa18d541eb751",
+  "active": "007cfacf941da425",
   "lastOpenFiles": [
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/DNS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Organizzazione dei campi in un Database DNS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS",
     "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/Sequence number.md",
     "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/Numerazione dei segmenti.md",
     "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
@@ -184,7 +187,6 @@
     "Sistemi e reti/Lo strato applicazione/Il WWW/Deep web.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/POP3.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione distribuita.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione locale.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Server di Host caching.md",
@@ -196,8 +198,6 @@
     "Sistemi e reti/Lo strato applicazione/Protocolli/Protocolli del livello applicazione.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/IMAP4.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTPS.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
     "Sistemi e reti/immagini/Pasted image 20251202120120.png",
     "Sistemi e reti/immagini/Pasted image 20251109220256.png",
     "Sistemi e reti/immagini/Pasted image 20251109205156.png",
@@ -216,7 +216,6 @@
     "Sistemi e reti/Lo strato di trasporto/UDP",
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione",
     "Sistemi e reti/Lo strato di trasporto/TCP",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer",
-    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto"
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer"
   ]
 }
