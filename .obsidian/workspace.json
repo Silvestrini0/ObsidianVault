@@ -4,24 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "1bc123b643eb53af",
+        "id": "5abb15a5817d262c",
         "type": "tabs",
         "children": [
           {
-            "id": "007cfacf941da425",
+            "id": "5f2c8364ed7b166d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/MIME.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MIME"
+              "title": "Nuova scheda"
+            }
+          },
+          {
+            "id": "7246488ebe90d783",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nuova scheda"
             }
           }
-        ]
+        ],
+        "currentTab": 1,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -170,36 +178,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "007cfacf941da425",
+  "active": "7246488ebe90d783",
   "lastOpenFiles": [
     "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/Posta Elettronica.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/POP3.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/MIME.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/IMAP4.md",
-    "README.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/SMTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/MIME.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/Protocolli del livello applicazione.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/IMAP4.md",
+    "Sistemi e reti/Lo strato di trasporto/TCP/Intestazione TCP.md",
+    "Sistemi e reti/Lo strato di trasporto/TCP/Protocollo TCP.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer decentralizzato.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer centralizzato.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Server di Host caching.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Client-Server.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione distribuita.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione locale.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Database DNS.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/DNS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Database DNS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTPS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/BASE 64.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/POP3.md",
+    "README.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA",
     "Sistemi e reti/Lo strato applicazione/Protocolli/DNS",
     "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/Sequence number.md",
     "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/Numerazione dei segmenti.md",
     "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
-    "Sistemi e reti/Lo strato di trasporto/ACK/Ack number.md",
-    "Sistemi e reti/Lo strato di trasporto/ACK/FLag ACK.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/Pagina web Statica.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/URI.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/URL.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/Pagina web Dinamica.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/Deep web.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione distribuita.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione locale.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Server di Host caching.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Client-Server.md",
     "Sistemi e reti/immagini/Pasted image 20251202120120.png",
     "Sistemi e reti/immagini/Pasted image 20251109220256.png",
     "Sistemi e reti/immagini/Pasted image 20251109205156.png",
