@@ -15,5 +15,7 @@ Ogni utente può avere più indirizzi email.
 
 **I sottosistemi che gestiscono l'invio e il recapito delle email sono:**
 - Il **MUA ( mail user agent )**, è il programma di gestione della posta presente sull' host mittente e su quello di destinazione. Presenta un'interfaccia grafica amichevole (user friendly ) per facilitare la scrittura, la modifica e l'invio della email. Per esempio Outlook, Gmail, ThunderBird.
-- L' **MTA ( mail transfer agent )**, è il server che ha in carico le caselle di posta elettronica e la si inoltra. 
+- L' **MTA ( mail transfer agent )**, è il server che ha in carico le caselle di posta elettronica. 
+Il MUA spedisce i messaggi all' MTA, l'MTA si occupa di rilevare i messaggi e del trasferimento ad altri MTA.
+
 
