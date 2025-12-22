@@ -36,6 +36,7 @@ R# show ip dhcp binding ↵
 R# show ip dhcp pool ↵
 R# show interface ↵
 R# show int fa0/0 ↵
+R# show ip nat translation ↵
 ```
 
 es.
@@ -63,4 +64,9 @@ R(config)# interface FastEthernet 2/0
 R(config-if)# ip nat outside ↵
 R(config-if)# exit ↵
 
+```
+
+Comando wr mem
+```
+ R# wr mem ↵
 ```
