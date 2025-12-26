@@ -1,0 +1,1 @@
+E' o un layer o un processo che effettua la comunicazione in rete.

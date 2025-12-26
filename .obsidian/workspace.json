@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "45cfc769eeae8c85",
+    "type": "split",
+    "children": [
+      {
+        "id": "5abb15a5817d262c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f2c8364ed7b166d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7eda2a2872914050",
+    "type": "split",
+    "children": [
+      {
+        "id": "18632f3976cd5dda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e84fa18d541eb751",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d69f662f28ad15d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "07114dfe65cf2c53",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a31a9a2766f7107b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6cffe98ee7341b25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67c259294ed18d34",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ObsidianGitRepo/Lo strato di trasporto/Servizi dello strato di trasporto/I servizi dello strato di trasporto.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti a I servizi dello strato di trasporto"
+            }
+          },
+          {
+            "id": "72e9c3b4f49769c6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ObsidianGitRepo/Lo strato di trasporto/Servizi dello strato di trasporto/Strato di Trasporto.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita da Strato di Trasporto"
+            }
+          },
+          {
+            "id": "348f44a699fe8e7d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "4138c1c8bcd1997d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sistemi e reti/immagini/Pasted image 20251109225305.png",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura di Pasted image 20251109225305"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5f2c8364ed7b166d",
+  "lastOpenFiles": [
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTPS.md",
+    "Sistemi e reti/immagini/Pasted image 20251109203121.png",
+    "Sistemi e reti/immagini/Pasted image 20251109202928.png",
+    "PacketTracer/Comandi CLI.md",
+    "Sistemi e reti/Lo strato applicazione/Il WWW/Pagina web Dinamica.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTO.md",
+    "Sistemi e reti/Lo strato di trasporto/TCP/Protocollo TCP.md",
+    "README.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/Posta Elettronica.md",
+    "PacketTracer",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/Protocolli del livello applicazione.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/SMTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/MIME.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/IMAP4.md",
+    "Sistemi e reti/Lo strato di trasporto/TCP/Intestazione TCP.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer decentralizzato.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer centralizzato.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Server di Host caching.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Client-Server.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione distribuita.md",
+    "Sistemi e reti/Lo strato applicazione/Tipo di esecuzione/Programma in esecuzione locale.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/DNS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Database DNS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/BASE 64.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS",
+    "Sistemi e reti/immagini/Pasted image 20251202120120.png",
+    "Sistemi e reti/immagini/Pasted image 20251109220256.png",
+    "Sistemi e reti/immagini/Pasted image 20251109205156.png",
+    "Sistemi e reti/immagini/Pasted image 20251109203025.png",
+    "Sistemi e reti/immagini/Pasted image 20251109202948.png",
+    "Sistemi e reti/immagini/Pasted image 20251109202855.png",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer",
+    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP",
+    "Sistemi e reti/immagini/Pasted image 20251109225305.png",
+    "Sistemi e reti/immagini/Pasted image 20251109215420.png",
+    "Sistemi e reti/immagini",
+    "Sistemi e reti/Lo strato di trasporto/UDP",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione"
+  ]
+}
