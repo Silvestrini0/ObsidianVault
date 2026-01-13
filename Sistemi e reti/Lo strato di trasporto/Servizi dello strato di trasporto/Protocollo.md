@@ -1,0 +1,1 @@
+Il modo convenzionale con cui vengono disposte le informazioni per garantire la comunicazione tra [[Entità di rete]] ( è la struttura codificata dei campi delle intestazioni).

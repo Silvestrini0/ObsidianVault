@@ -1,0 +1,1 @@
+Lo strato di trasporto del destinatario è in grado di distribuire i segmenti ai processi a cui sono destinati utilizzando il [[Numero di porta]] di destinazione come discrimine.

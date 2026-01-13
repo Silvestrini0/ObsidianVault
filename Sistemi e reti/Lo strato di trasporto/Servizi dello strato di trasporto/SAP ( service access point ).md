@@ -1,0 +1,2 @@
+E' un interfaccia logica tra un'[[Entità di rete]] di livello *n* e un'[[Entità di rete]] di livello *n-1*. 
+Il SAP tra il layer applicativo e quello di trasporto ( nel [[Protocollo TCP]]-IP) è il [[Numero di porta]].

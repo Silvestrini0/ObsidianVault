@@ -1,0 +1,3 @@
+L' RTT medio è il valor medio dell' [[RTT]] calcolato in un certo intervallo di tempo. Siccome l' RTT varia a seconda della congestione della rete, il valor medio indica quanto tempo in media il mittente deve attendere per ottenere un riscontro a un segmento. Anche l' RTT medio varia nel tempo ma con fluttuazioni di valori meno casuali rispetto all'[[RTT]].
+
+Sulla base dell'RTT medio viene definito un intervallo fondamentale per il [[Protocollo TCP]] detto [[RTO]]. 
