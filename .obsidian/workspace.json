@@ -90,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PacketTracer/Comandi CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a Comandi CLI"
+              "title": "Riferimenti"
             }
           },
           {
@@ -109,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PacketTracer/Comandi CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da Comandi CLI"
+              "title": "Collegamenti in uscita"
             }
           },
           {
@@ -152,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PacketTracer/Comandi CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di Comandi CLI"
+              "title": "Struttura"
             }
           }
         ]
@@ -179,6 +176,8 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "91a87115315319af",
-  "lastOpenFiles": []
+  "active": "82f3b2a9a94ca958",
+  "lastOpenFiles": [
+    "PacketTracer/Comandi CLI.md"
+  ]
 }
