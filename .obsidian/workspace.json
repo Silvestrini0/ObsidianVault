@@ -11,10 +11,14 @@
             "id": "82f3b2a9a94ca958",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "ISN"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti"
+              "title": "Riferimenti a ISN"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita"
+              "title": "Collegamenti in uscita da ISN"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura"
+              "title": "Struttura di ISN"
             }
           }
         ]
@@ -176,8 +183,9 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "82f3b2a9a94ca958",
+  "active": "91a87115315319af",
   "lastOpenFiles": [
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Canale Logico.md",
     "PacketTracer/Comandi CLI.md"
   ]
 }
