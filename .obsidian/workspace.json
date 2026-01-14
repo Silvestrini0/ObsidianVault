@@ -13,6 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+<<<<<<< Updated upstream
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -51,6 +52,14 @@
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Vista grafo"
+=======
+                "file": "Sistemi e reti/Lo strato di trasporto/UDP/Intestazione UDP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Intestazione UDP"
+>>>>>>> Stashed changes
             }
           }
         ],
@@ -216,6 +225,7 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
+<<<<<<< Updated upstream
   "active": "cb625c9dfda30a91",
   "lastOpenFiles": [
     "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
@@ -248,5 +258,13 @@
     "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer centralizzato.md",
     "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer.md",
     "immagini/Pasted image 20260113174050.png"
+=======
+  "active": "82f3b2a9a94ca958",
+  "lastOpenFiles": [
+    "Sistemi e reti/Lo strato di trasporto/UDP/Protocollo UDP.md",
+    "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Canale Logico.md",
+    "PacketTracer/Comandi CLI.md"
+>>>>>>> Stashed changes
   ]
 }
