@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi e reti/La crittografia/Crittografia.md",
+                "file": "Sistemi e reti/La crittografia/Esigenze utente.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crittografia"
+              "title": "Esigenze utente"
             }
           }
         ]
@@ -182,17 +182,17 @@
   },
   "active": "2a6ad6305f4d087c",
   "lastOpenFiles": [
-    "Sistemi e reti/La crittografia/Crittografia.md",
     "Sistemi e reti/La crittografia/Schemi crittografici.md",
     "Sistemi e reti/La crittografia/Esigenze utente.md",
+    "Sistemi e reti/La crittografia/Crittografia.md",
     "protocollo IP.md",
+    "PacketTracer/Comandi CLI.md",
     "Sistemi e reti/La crittografia",
     "immagini/Pasted image 20260125152148.jpg",
     "PacketTracer/Senza nome.md",
     "PacketTracer/Esercizio 02.md",
     "PacketTracer/Esercizio 01.md",
     "immagini/Pasted image 20260125152232.png",
-    "PacketTracer/Comandi CLI.md",
     "immagini/Pasted image 20260120114046.png",
     "immagini/WhatsApp Image 2026-01-20 at 11.37.34 1.jpeg",
     "README.md",
