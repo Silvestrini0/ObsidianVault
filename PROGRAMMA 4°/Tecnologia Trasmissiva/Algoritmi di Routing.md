@@ -1,0 +1,1 @@
+S'intende il reinstradamento automatico di un messaggio operato in base all'analisi della situazione attuale del traffico della rete. E' in base all'analisi della situazione attuale del traffico della rete. E' un algoritmo che stabilisce la strada migliore per giungere a destinazione.

@@ -1,0 +1,1 @@
+Si intendono l'insieme di tutte le connessioni stabilite tra le [[LAN]].

@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "efef96c344182d7e",
+    "id": "a53b2c7a4a1fa6c4",
     "type": "split",
     "children": [
       {
-        "id": "bd0ac7d0ba3769b2",
+        "id": "0ef6a48bf0f93f18",
         "type": "tabs",
         "children": [
           {
-            "id": "2a6ad6305f4d087c",
+            "id": "7f3d566c8709e887",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROGRAMMA 4°/Definizioni Utili/820.x.md",
+                "file": "PROGRAMMA 4°/Tipi di LAN/Reti a bus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "820.x"
+              "title": "Reti a bus"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ddd6a53fcfbe2f8d",
+    "id": "51686d8a8ee46f7b",
     "type": "split",
     "children": [
       {
-        "id": "5b3873c4d7a0cbc6",
+        "id": "253bb45de672b74a",
         "type": "tabs",
         "children": [
           {
-            "id": "bb7a0ab6b0c91d59",
+            "id": "bf31f39e7b673fc5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "c61ec47d22d6ef0f",
+            "id": "652f816721d5870e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "80030af82e14fb90",
+            "id": "8c2f8289b5d29bfd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,22 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 239.50260543823242
   },
   "right": {
-    "id": "9e61b7abb9a3da74",
+    "id": "fab14c50fc143afa",
     "type": "split",
     "children": [
       {
-        "id": "d3f70312cd71c0ac",
+        "id": "b2c260c44b145dfd",
         "type": "tabs",
         "children": [
           {
-            "id": "2f899f2f9712772f",
+            "id": "7f3ee6cd01b35dc8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PROGRAMMA 4°/Tipi di LAN/Reti a bus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti"
+              "title": "Riferimenti a Reti a bus"
             }
           },
           {
-            "id": "b1f014b7c7e9547d",
+            "id": "ec31b0d71e37275e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PROGRAMMA 4°/Tipi di LAN/Reti a bus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita"
+              "title": "Collegamenti in uscita da Reti a bus"
             }
           },
           {
-            "id": "9bdf62e8875973ac",
+            "id": "9eb03bcd770f5153",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +137,7 @@
             }
           },
           {
-            "id": "cea6feeea699f5f5",
+            "id": "292b1f3910da6102",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -145,30 +147,29 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Tutte le proprietà"
             }
           },
           {
-            "id": "5807c2b23d5ab44f",
+            "id": "d4e77579416e185f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi e reti/La crittografia/Schemi crittografici.md",
+                "file": "PROGRAMMA 4°/Tipi di LAN/Reti a bus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Schemi crittografici"
+              "title": "Struttura di Reti a bus"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -182,43 +183,33 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "2a6ad6305f4d087c",
+  "active": "7f3d566c8709e887",
   "lastOpenFiles": [
-    "PROGRAMMA 4°/IEEE.md",
+    "Pasted image 20260207221620.png",
+    "PROGRAMMA 4°/Tipi di LAN/Reti ad anello.md",
+    "PROGRAMMA 4°/Tipi di LAN/Reti a bus.md",
+    "immagini/Pasted image 20260207221512.png",
+    "PROGRAMMA 4°/Tipi di LAN/LAN.md",
+    "PROGRAMMA 4°/Tipi di LAN/Reti a stella.md",
+    "immagini/Pasted image 20260207213656.png",
+    "PROGRAMMA 4°/Tipi di LAN",
+    "PROGRAMMA 4°/Classificazioni di reti/Scala Dimensionale.md",
+    "PROGRAMMA 4°/Classificazioni di reti/Classificazione delle Reti.md",
+    "PROGRAMMA 4°/Classificazioni di reti/Tecnologia Trasmissiva.md",
+    "PROGRAMMA 4°/Classificazioni di reti",
+    "PROGRAMMA 4°/Tecnologia Trasmissiva/Algoritmi di Routing.md",
+    "PROGRAMMA 4°/Tecnologia Trasmissiva/Punto A Punto.md",
+    "PROGRAMMA 4°/Tecnologia Trasmissiva/Broadcast.md",
+    "immagini/Pasted image 20260207211529.png",
+    "PROGRAMMA 4°/Tecnologia Trasmissiva",
+    "immagini/Pasted image 20260207210704.png",
+    "PROGRAMMA 4°/Definizioni Utili/Internet Working.md",
+    "PROGRAMMA 4°/Definizioni Utili/IEEE.md",
+    "PROGRAMMA 4°/Definizioni Utili/Rete generale.md",
+    "PROGRAMMA 4°/Definizioni Utili/Rete Informatica.md",
+    "PROGRAMMA 4°/Definizioni Utili/ISP.md",
+    "immagini/Pasted image 20260207210124.png",
     "PROGRAMMA 4°/Definizioni Utili/820.x.md",
-    "PROGRAMMA 4°/Definizioni Utili",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Messaggi tra peer.md",
-    "PROGRAMMA 4°",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer centralizzato.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Peer-To-Peer/Peer-To-Peer decentralizzato.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Client-Server.md",
-    "Sistemi e reti/Lo strato applicazione/Tipo di programma distribuito/Server di Host caching.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/DNS.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Database DNS.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTPS.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/POP3.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/Posta Elettronica.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/SMTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/MIME.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/Protocolli del livello applicazione.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/BASE 64.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/IMAP4.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/WWW.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/URL.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/URI.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/Pagina web Statica.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/Pagina web Dinamica.md",
-    "Untitled.base",
-    "Untitled 1.base",
-    "Sistemi e reti/La crittografia",
-    "immagini/Pasted image 20260125152148.jpg",
-    "immagini/Pasted image 20260125152232.png",
-    "immagini/Pasted image 20260120114046.png",
-    "immagini/WhatsApp Image 2026-01-20 at 11.37.34 1.jpeg",
-    "WhatsApp Image 2026-01-20 at 11.37.34.jpeg"
+    "PacketTracer/Esercizio 02.md"
   ]
 }

@@ -1,0 +1,1 @@
+(Internet service provider) ha ricevuto in connessione la possibilità di installare un sistema di nodi di comunicazione sul demanio pubblico.

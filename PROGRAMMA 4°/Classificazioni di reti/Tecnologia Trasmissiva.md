@@ -1,0 +1,1 @@
+S'intende la modalità utilizzata per trasferire un'informazione.
