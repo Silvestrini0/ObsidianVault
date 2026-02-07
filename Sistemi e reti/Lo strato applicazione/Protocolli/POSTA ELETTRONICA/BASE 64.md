@@ -6,4 +6,4 @@
 - Ciascuno di questi caratteri viene espresso nella codifica ASCII standard con 8 bit
 - Il risultato finale è che ogni 3 byte qualsiasi si ottengono 4 byte con MSB = 0.
 
-Se il server [[SMTP]] richiede l'autenticazione allora anche la password e il nome utente per il login devono subire la transcodifica prima di essere spediti al server
+Se il server [[SMTP]] richiede l'autenticazione allora anche la password e il nome utente per il login devono subire la transcodifica prima di essere spediti al server.
