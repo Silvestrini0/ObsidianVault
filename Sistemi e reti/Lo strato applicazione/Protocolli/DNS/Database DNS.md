@@ -19,6 +19,9 @@ Esistono 4 tipi di record [[DNS]] contraddistinti da valori differenti del campo
 - Type = C name, nel campo value si trova il nome simbolico reale associato ad un nome simbolico alternativo presente nel campo name 
 - Type = MX, nel campo value si trova il nome simbolico del mail server il cui dominio di posta elettronica è scritto nel campo name.
 
-
-
-
+| Name                         | Value                                                        | Type | TTL                                 |
+| ---------------------------- | ------------------------------------------------------------ | ---- | ----------------------------------- |
+| indirizzo simbolico          | indirizzo ip                                                 | *A*    | tempo di vita del record (infinito) |
+| indirizzo simbolico          | dominio del server competente per l'indirizzo nel campo name | *NS*   | tempo di vita del record            |
+| nome simbolico               | nome simbolico reale associato al nome del campo name        | *C*    | tempo di vita del record            |
+| dominio di posta elettronica | nome simbolico mail server                                   | *MX*   | tempo di vita del record            |

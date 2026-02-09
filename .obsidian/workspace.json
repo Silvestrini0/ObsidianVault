@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROGRAMMA 4°/Tipi di LAN/Reti a bus.md",
+                "file": "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTPS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reti a bus"
+              "title": "HTTPS"
             }
           }
         ]
@@ -183,11 +183,23 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "7f3d566c8709e887",
+  "active": "bf31f39e7b673fc5",
   "lastOpenFiles": [
-    "Pasted image 20260207221620.png",
-    "PROGRAMMA 4°/Tipi di LAN/Reti ad anello.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/Protocolli del livello applicazione.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/SMTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/Posta Elettronica.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/POP3.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/IMAP4.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/MIME.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTPS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Database DNS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/DNS.md",
     "PROGRAMMA 4°/Tipi di LAN/Reti a bus.md",
+    "immagini/Pasted image 20260207221620.png",
+    "PROGRAMMA 4°/Tipi di LAN/Reti ad anello.md",
     "immagini/Pasted image 20260207221512.png",
     "PROGRAMMA 4°/Tipi di LAN/LAN.md",
     "PROGRAMMA 4°/Tipi di LAN/Reti a stella.md",
@@ -207,9 +219,6 @@
     "PROGRAMMA 4°/Definizioni Utili/IEEE.md",
     "PROGRAMMA 4°/Definizioni Utili/Rete generale.md",
     "PROGRAMMA 4°/Definizioni Utili/Rete Informatica.md",
-    "PROGRAMMA 4°/Definizioni Utili/ISP.md",
-    "immagini/Pasted image 20260207210124.png",
-    "PROGRAMMA 4°/Definizioni Utili/820.x.md",
-    "PacketTracer/Esercizio 02.md"
+    "immagini/Pasted image 20260207210124.png"
   ]
 }
