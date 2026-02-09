@@ -11,10 +11,14 @@
             "id": "7f3d566c8709e887",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Database DNS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Database DNS"
             }
           }
         ]
@@ -181,13 +185,18 @@
   },
   "active": "7f3d566c8709e887",
   "lastOpenFiles": [
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/DNS.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/IMAP4.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/Posta Elettronica.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/SMTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/BASE 64.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
     "Sistemi e reti/Lo strato di trasporto/ACK/FLag ACK.md",
     "Sistemi e reti/Lo strato di trasporto/ACK/Ack number.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/Protocolli del livello applicazione.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTPS.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
     "Sistemi e reti/La crittografia/Esigenze utente.md",
     "PacketTracer/Comandi CLI.md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/I servizi dello strato di trasporto.md",
@@ -202,11 +211,6 @@
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTT medio.md",
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTT.md",
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTO.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Next sean.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/La finestra di trasmissione.md",
-    "Sistemi e reti/Lo strato di trasporto/UDP/Protocollo UDP.md",
-    "Sistemi e reti/Lo strato di trasporto/UDP/Intestazione UDP.md",
-    "Sistemi e reti/Lo strato applicazione/Il WWW/WWW.md",
     "immagini/Pasted image 20260207221620.png",
     "immagini/Pasted image 20260207221512.png",
     "immagini/Pasted image 20260207213656.png",
