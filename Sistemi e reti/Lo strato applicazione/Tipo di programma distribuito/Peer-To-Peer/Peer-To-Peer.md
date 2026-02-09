@@ -6,7 +6,7 @@ Con peer to peer ci si riferisce ad una classe di sistemi che utilizzano un sist
 - [[Peer-To-Peer centralizzato]], esiste un processo server che contiene il mapping tra risorse e socket presso cui si trova la risorsa.
 - [[Peer-To-Peer decentralizzato]], non esiste un server centrale che contiene il mapping delle risorse, ma esiste un server di host caching che raccoglie i socket dei processi remoti che sono attivi sulla rete in quel momento.
 
-**Svantaggi del peer to [[Peer-To-Peer decentralizzato]]:**
+**Svantaggi del [[Peer-To-Peer decentralizzato]]:**
 - Il flooding, congestiona la rete con un numero di segmenti che cresce esponenzialmente ad ogni nuovo inoltro. Per questo è necessario inserire un TTL.
 - I tempi di ricerca sono imprevedibili.
 - Il raggio di ricerca è limitato dal TTL, cioè non si sonda tutta la rete.

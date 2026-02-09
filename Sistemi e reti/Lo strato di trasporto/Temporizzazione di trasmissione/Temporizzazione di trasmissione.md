@@ -2,7 +2,7 @@ Associata all'invio di un segmento è un timer che viene usato per calcolare il 
 
 Il timer di ritrasmissione viene resettato in 4 casi:
 - Quando la coda dei segmenti in trasmissione è vuota e comincia a riempire con i dati prodotti dal processo che li vuole mandare nel canale logico. In questo caso il flusso viene diviso in segmenti e se il buffer del destinatario è disponibile a riceverli, allora i segmenti vengono inviati in sequenza nel canale logico e può partire il timer di ritrasmissione associato al più vecchio segmento inviato e mai riscontrato.
-- Quando si riceve un segmento di ack non duplicato a conferma che il più vecchio segmento inviato non è ancora stato ricevuto dal destinatario. In questo caso si può procedere con l'invio di nuovi segmenti se il buffer del destinatario può raccoglierli. 
+- Quando si riceve un segmen non duplicato a conferma che il più vecchio segmento inviato non è ancora stato ricevuto dal destinatario. In questo caso si può procedere con l'invio di nuovi segmenti se il buffer del destinatario può raccoglierli. 
 - Quando si raggiunge il tempo limite [[RTO]] in questo caso si invia nuovamente il più vecchio segmento inviato ma non ancora riscontrato.
 - Nel caso dell'invio veloce.
 

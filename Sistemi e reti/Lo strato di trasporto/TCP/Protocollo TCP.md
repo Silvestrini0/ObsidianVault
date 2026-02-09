@@ -1,4 +1,4 @@
-( Transmition Control Protocol )
+( Transmission Control Protocol )
 Il TCP è un [[Protocollo]] orientato alla connessione, consente il controllo d'integrità e dispone di un sistema automatico per la verifica di consegna di un segmento e un sistema che richiede la trasmissione dei segmenti corrotti.
 
 Lo strato di rete (IP) implementa un protocollo che non è affidabile. Cioè si possono perdere pacchetti e si possono verificare errori di trasmissione. Il protocollo IP è sicuramente in grado di recapitare i suoi dati ad una qualsiasi interfaccia di rete ma essere in grado non significa riuscirci sempre.
@@ -18,5 +18,5 @@ Prima di iniziare un inserimento di dati è necessario stabilire una serie di pa
 
 Un'altro parametro che viene stabilito è il [[WS]].
 
-In particolare prima di trasferire i dati è necessario instaurare la connessione logica, e questo viene fatto con la stretta di mano a 3 vie (3WHS). Dopo l'instaurazione della connessione logica avviene la comunicazione informativa affidabile e bidirezionale.
+In particolare prima di trasferire i dati è necessario instaurare la connessione logica, e questo viene fatto con la stretta di mano a 3 vie (3WH). Dopo l'instaurazione della connessione logica avviene la comunicazione informativa affidabile e bidirezionale.
 

@@ -29,7 +29,7 @@ Spesso il codice php prevede un collegamento al DBMS ( data base management syst
 
 Il protocollo HTTP è definito **stateless**, significa che non è in grado di memorizzare sul client informazioni riguardo alle connessioni precedenti HTTP; esiste la possibilità deprecata di utilizzare i cookie. Cioè stringhe che contengono informazioni relative al client prodotte dal server e memorizzate nella cache del browser ma che non hanno a che fare col protocollo http.
 
-**Esistono diversi metodi utilizzabili nelle [[richieste HTTP]].**
+**Esistono diversi metodi utilizzabili nelle [[Richieste HTTP]].**
 
 Fino alla 1.1 compresa il protocollo è in chiaro e testuale e non è un protocollo sicuro perché non è crittografato.
 
