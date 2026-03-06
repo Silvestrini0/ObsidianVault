@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "31c299741d9eea4b",
+        "id": "b79af2dd6baab9d7",
         "type": "tabs",
         "children": [
           {
-            "id": "378c513af6f281af",
+            "id": "0d1c2999e5c7f895",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,10 +183,13 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "378c513af6f281af",
+  "active": "0d1c2999e5c7f895",
   "lastOpenFiles": [
-    "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN/Reti ad albero.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Multiplazione.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Demultiplazione.md",
     "TPSIT/HTTP (tpsit).md",
+    "immagini/HTTP.pdf",
+    "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN/Reti ad albero.md",
     "TPSIT",
     "immagini/Pasted image 20260305103515.png",
     "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN/Reti a maglia.md",
@@ -214,8 +217,6 @@
     "Sistemi e reti/La crittografia/Esigenze utente.md",
     "PacketTracer/Comandi CLI.md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/I servizi dello strato di trasporto.md",
-    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Entità di rete.md",
-    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Demultiplazione.md",
     "immagini/Pasted image 20260207221620.png",
     "immagini/Pasted image 20260207221512.png",
     "immagini/Pasted image 20260207213656.png",
