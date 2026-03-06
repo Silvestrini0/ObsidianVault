@@ -1,0 +1,1 @@
+HTTP 1.1 introduce il pipe-lining che consente al client di inviare più richieste senza attendere la risposta tuttavia il server è comunque obbligato a mantenere l'ordine delle risposte. Nonostante è stato pensato per migliorare l'efficienza delle connessioni persistenti, è stato poco utilizzato nella pratica a causa di problemi di compatibilità, con i proxy intermedi.

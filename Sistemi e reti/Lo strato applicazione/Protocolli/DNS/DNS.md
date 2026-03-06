@@ -16,8 +16,8 @@ In internet la risoluzione degli indirizzi simbolici in indirizzi ip è offerto 
 - Protocollo del layer applicazione che regola la comunicazione tra host e name server.
 
 Es. 
-Se apro il browser e inserisco un [[URL]] il protocollo [[HTTP]] estrae l'indirizzo simbolico e invoca il protocollo DNS a cui passa l'indirizzo simbolico.
-Il protocollo DNS interroga il sistema dei server DNS partendo da quello locale a seguito dell'interrogazione si ottiene l'ip corrispondente all'indirizzo simbolico che passa al protocollo [[HTTP]]
+Se apro il browser e inserisco un [[URL]] il protocollo [[Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP]] estrae l'indirizzo simbolico e invoca il protocollo DNS a cui passa l'indirizzo simbolico.
+Il protocollo DNS interroga il sistema dei server DNS partendo da quello locale a seguito dell'interrogazione si ottiene l'ip corrispondente all'indirizzo simbolico che passa al protocollo [[Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP]]
 Il protocollo invoca un protocollo di trasporto a cui passa indirizzo ip e porta
 
 **Esistono 2 tipologie di server DNS:**

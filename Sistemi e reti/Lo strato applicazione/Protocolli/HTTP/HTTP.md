@@ -1,5 +1,5 @@
 ( Hyper Text Transfer Protocol )
-Il protocollo di trasporto adottato è **TCP/80** tranne nella versione **HTTP/3** si basa sulla **porta HTTP/443**.
+Il protocollo di trasporto adottato è **TCP/80** tranne nella versione **HTTP/3** si basa sulla **porta QUIC/443**.
 Trasferimento di pagine web
 
 Serve per i dati ipertestuali formattati in un file html e utilizza un'architettura [[Client-Server]].

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0ef6a48bf0f93f18",
+        "id": "31c299741d9eea4b",
         "type": "tabs",
         "children": [
           {
-            "id": "7f3d566c8709e887",
+            "id": "378c513af6f281af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Database DNS.md",
+                "file": "TPSIT/HTTP (tpsit).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database DNS"
+              "title": "HTTP (tpsit)"
             }
           }
         ]
@@ -183,8 +183,23 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "7f3d566c8709e887",
+  "active": "378c513af6f281af",
   "lastOpenFiles": [
+    "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN/Reti ad albero.md",
+    "TPSIT/HTTP (tpsit).md",
+    "TPSIT",
+    "immagini/Pasted image 20260305103515.png",
+    "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN/Reti a maglia.md",
+    "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN/LAN.md",
+    "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN/Reti ad anello.md",
+    "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN/Reti a bus.md",
+    "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN/Reti a stella.md",
+    "immagini/Pasted image 20260305103141.png",
+    "Sistemi e reti/PROGRAMMA 4°/Tecnologia Trasmissiva/Sequenza di Jam.md",
+    "immagini/Pasted image 20260305102227.png",
+    "4.jpeg",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/Database DNS.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/DNS/DNS.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/Richieste HTTP.md",
@@ -192,7 +207,6 @@
     "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/Posta Elettronica.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/SMTP.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/POSTA ELETTRONICA/BASE 64.md",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
     "Sistemi e reti/Lo strato di trasporto/ACK/FLag ACK.md",
     "Sistemi e reti/Lo strato di trasporto/ACK/Ack number.md",
     "Sistemi e reti/Lo strato applicazione/Protocolli/Protocolli del livello applicazione.md",
@@ -202,22 +216,13 @@
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/I servizi dello strato di trasporto.md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Entità di rete.md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Demultiplazione.md",
-    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Checksum.md",
-    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Canale Logico.md",
-    "Sistemi e reti/Lo strato di trasporto/TCP/Protocollo TCP.md",
-    "Sistemi e reti/Lo strato di trasporto/TCP/Intestazione TCP.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Temporizzazione di trasmissione.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Send base.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTT medio.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTT.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTO.md",
     "immagini/Pasted image 20260207221620.png",
     "immagini/Pasted image 20260207221512.png",
     "immagini/Pasted image 20260207213656.png",
-    "PROGRAMMA 4°/Tipi di LAN",
-    "PROGRAMMA 4°/Classificazioni di reti",
+    "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN",
+    "Sistemi e reti/PROGRAMMA 4°/Classificazioni di reti",
     "immagini/Pasted image 20260207211529.png",
-    "PROGRAMMA 4°/Tecnologia Trasmissiva",
+    "Sistemi e reti/PROGRAMMA 4°/Tecnologia Trasmissiva",
     "immagini/Pasted image 20260207210704.png",
     "immagini/Pasted image 20260207210124.png"
   ]
