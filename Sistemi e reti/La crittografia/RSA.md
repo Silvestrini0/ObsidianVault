@@ -60,7 +60,9 @@ Sostituendo la seconda nella prima:
 $$z = Ax₁ + B(Cx₁ + Dx₂)  $$
 $$z = Ax₁ + BCx₁ + BDx₂  $$
 $$z = (A + BC)x₁ + (BD)x₂  $$
-$$**z = Ex₁ + Fx₂**$$
+$$z = Ex₁ + Fx₂$$
 
 **Conclusione:**  
 La struttura rimane quella di una combinazione lineare di x₁ e x₂, dunque la funzione composta è lineare.
+
+---
