@@ -1,33 +1,91 @@
+# Evoluzione di HTTP
 
-![[HTTP.pdf]]
+## HTTP/1.0
+- **Modello non persistente**: per ogni richiesta il client apre una nuova connessione TCP, che viene chiusa al termine della risposta.
+- **Problema**: scaricare una pagina composta da molte risorse (es. immagini, CSS) richiede l'apertura di numerose connessioni TCP indipendenti, aumentando la latenza e il carico sul server.
 
-**HTTP 1.1**
-Introduce il pipelining che consente al client di inviare più richieste senza attendere la risposta tuttavia il server è comunque obbligato a mantenere l'ordine delle risposte. Nonostante è stato pensato per migliorare l'efficienza delle connessioni persistenti, è stato poco utilizzato nella pratica a causa di problemi di compatibilità, con i proxy intermedi. E dal fatto che una risposta lenta poteva ritardare le successive.
+## HTTP/1.1
 
-**Head of Line Blocking** (in riferimento all'HTTP 1.1)
-E' il comportamento per cui una risposta lenta sulla stessa connessione impedisce l'invio delle risposte successive. Questo comportamento è dovuto al modello sequenziale del protocollo **Applicativo** 
+### Connessioni persistenti
+- Consente di inviare più richieste e ricevere più risposte sulla stessa connessione TCP.
+- La connessione non viene chiusa immediatamente, riducendo il numero di handshake TCP.
 
-**Chunked Transfer** (in riferimento all'HTTP 1.1)
-Viene introdotto la **Chunked Transfer Encoding** che permette al server di inviare il corpo dei blocchi (Chunk) senza conoscere in anticipo la lunghezza totale del contenuto. Il precedente approccio presente nell' HTTP 1.0 risultava limitante soprattutto nel caso di contenuti dinamici generati progressivamente ad esempio pagine costruite interrogando un database o ricevendo dati da servizi esterni in cui la dimensione finale del contenuto non è nota a priori. Con il **Chunked Transfer Encoding** il server può iniziare immediatamente l'invio dei dati man mano che vengono prodotti. Il messaggio viene quindi inviato in blocchi in modo sequenziale ciascuno dei quali preceduto dalla propria dimensione, permettendo al client di ricostruire correttamente il contenuto.
+### Header Host
+- Obbligatorio in HTTP/1.1.
+- Permette il **virtual hosting**: più domini possono condividere lo stesso indirizzo IP. Il server legge l'header `Host` per determinare quale sito web servire.
 
-**Caching** ( in riferimento all'HTTP 1.1)
-Con l'Http 1.1 viene migliorato l'utilizzo della Cache in proporzione all'Http 1.0. 
-Se bene in Http 1.0 esistessero meccanismi basilari come **Expires** e **If Modify Since** il controllo risultava limitato e basato sul **Timestamp**.
-Con Http 1.1 vengono introdotti header più avanzati, come il **Cache Control** che definisce in modo preciso le politiche di caching (ad esempio durata, visibilità e validità della risorsa).
+### Pipelining
+- Il client può inviare più richieste senza attendere le relative risposte.
+- **Problema**: il server è obbligato a rispondere nello stesso ordine in cui sono arrivate le richieste (modello sequenziale).
+- Una risposta lenta blocca tutte quelle successive → **Head‑of‑Line blocking a livello applicativo**.
+- Il pipelining è stato poco utilizzato a causa di problemi di compatibilità con proxy intermedi e del rischio di blocco.
 
-L' **ETag** è un indentificatore univoco definitivo della versione della risorsa.
+### Chunked transfer encoding
+- Il server può inviare la risposta in blocchi (chunk) senza conoscere la lunghezza totale del contenuto in anticipo.
+- Utile per contenuti generati dinamicamente (es. pagine che interrogano un database o ricevono dati da servizi esterni).
+- Ogni chunk è preceduto dalla propria dimensione; il client ricostruisce il contenuto man mano che arriva.
 
-Il Client può successivamente utilizzare **If None Match** per chiedere al server se la versione in Cache è ancora valida, in caso affermativo il server risponde con il codice 304 ( **Not Modified** ), senza rinviare il contenuto. Questo consente una gestione più efficiente riducendo traffici e latenze,
+### Caching migliorato
+- In HTTP/1.0 esistevano meccanismi basilari come `Expires` e `If-Modified-Since`, basati sul timestamp.
+- **HTTP/1.1** introduce:
+  - `Cache-Control`: definisce politiche di caching precise (durata, visibilità, validità).
+  - `ETag` (Entity Tag): identificatore univoco per una specifica versione di una risorsa.
+  - Il client può usare `If-None-Match` con l'ETag per chiedere al server se la copia in cache è ancora valida.
+  - Se la risorsa non è modificata, il server risponde con `304 Not Modified` (senza corpo), riducendo il traffico.
 
-**HTTP 2.0**
-Standardizzato nel 2015 introduce un'architettura binaria basata su frame e un multiplexer applicativo che consente di utilizzare più stream logici indipendenti sulla stessa connessione.
-Integra la **compressione degli header**, la **prioritizzazione degli stream**, queste sono le caratteristiche macroscopiche alterate.
-In Http 2.0 i messaggi non vengono trasmessi come testo ASCII leggibile ma come dati binari strutturati in frame, ogni frame contiene campi predefiniti come:
+## HTTP/2.0 (2015)
 
-| Lunghezza | Stream Id | Tipo | Flag | ... Payload ... |
-| --------- | --------- | ---- | ---- | --------------- |
+### Architettura binaria
+- I messaggi non sono più testo ASCII, ma vengono suddivisi in **frame** binari.
+- Ogni frame contiene campi predefiniti: **Lunghezza**, **Tipo**, **Flag**, **Stream Identifier**, e il **Payload**.
+- Il formato binario semplifica il parsing e riduce le ambiguità.
+- Gli header non sono più inviati come stringhe: vengono codificati e compressi con **HPACK**.
 
-Il formato binario utilizzato elimina la necessità di interpretare righe di testo rendendo il parsing più rapido e meno soggetto di ambiguità. All'interno di questa struttura binaria anche gli header non sono più inviati come stringhe ma vengono codificati e compressi tramite il meccanismo **HPack**.
+### Multiplexing
+- Una singola connessione TCP trasporta più **stream logici indipendenti**, ciascuno identificato da uno **Stream ID**.
+- I frame dei diversi stream vengono interlacciati e inviati sulla stessa connessione.
+- Il destinatario usa lo Stream ID per demultiplexare i dati e ricostruire i flussi originali.
+- Elimina l'Head‑of‑Line blocking a livello applicativo (una risposta lenta non blocca le altre), ma permane il **blocco a livello TCP** (un pacchetto perso ferma tutti gli stream).
 
-In http il multiplexing è realizzato tramite un meccanismo di framing che suddivide la comunicazione in unità elementari ciascuna associata allo **Stream Id**.
-Una singola connessione TCP trasporterà quindi una sequenza continua di frame binari; ogni frame conterrà nel proprio header l'identificativo che consentirà al destinatario di demultiplexare i dati e quindi ricostruire i flussi logici indipendenti.
+### Altre caratteristiche
+- **Prioritizzazione degli stream**: il client può indicare l'importanza relativa di ogni stream.
+- **Server push** (opzionale): il server può inviare risorse aggiuntive prima che il client le richieda esplicitamente.
+
+## HTTP/3.0 (2022)
+
+### Panoramica
+- Standardizzato nella **RFC 9114**.
+- Mantiene il modello a stream e l'architettura a frame di HTTP/2, ma sostituisce TCP con **QUIC** (basato su UDP).
+
+### Vantaggi principali
+- **Nessun Head‑of‑Line blocking a livello di trasporto**: la perdita di un pacchetto riguarda solo lo stream a cui appartiene, gli altri continuano a funzionare.
+- **Handshake più rapido**: spesso 0‑RTT (zero round trip time) per connessioni ripetute grazie a QUIC.
+- **Cifratura integrata**: TLS 1.3 è parte integrante di QUIC, non un livello separato.
+- **Migrazione della connessione**: la connessione può sopravvivere a cambi di indirizzo IP (es. da Wi‑Fi a rete mobile).
+
+### Compressione degli header
+- Viene utilizzato **QPACK**, un adattamento di HPACK pensato per funzionare con il multiplexing di QUIC.
+
+## QUIC (Quick UDP Internet Connections)
+
+### Generalità
+- Protocollo di trasporto sviluppato da Google, standardizzato nella **RFC 9000**.
+- Opera sopra **UDP**, ma implementa al suo interno funzionalità di affidabilità, controllo della congestione e multiplexing.
+- Obiettivo: superare i limiti di TCP nelle comunicazioni moderne.
+
+### Affidabilità e controllo della congestione
+- **Numeri di pacchetto** (Packet Number): ogni pacchetto QUIC ha un numero univoco che permette di:
+  - Rilevare pacchetti persi.
+  - Identificare duplicati.
+  - Ricostruire l'ordine corretto.
+- **Ack frame**: le conferme di ricezione non sono nell'header ma vengono trasportate come frame all'interno del payload dei pacchetti QUIC.
+- Il mittente ritrasmette un pacchetto se non riceve l'Ack corrispondente.
+- **Controllo della congestione**: implementato tramite algoritmi interni (simili a quelli TCP) che regolano dinamicamente la velocità di invio in base alle condizioni di rete.
+
+### Multiplexing a livello di trasporto
+- I dati vengono suddivisi in **frame** associati a **stream indipendenti**.
+- Ogni stream è gestito separatamente, con il proprio meccanismo di affidabilità e controllo di flusso.
+- I frame di stream diversi vengono interlacciati nei pacchetti QUIC, consentendo una comunicazione parallela e senza blocchi tra flussi.
+
+### Sicurezza
+- QUIC integra **TLS 1.3** direttamente, garantendo crittografia e autenticazione end‑to‑end fin dall'inizio della connessione.

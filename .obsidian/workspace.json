@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3a4f90f6711db937",
+        "id": "c662a4834ee05c69",
         "type": "tabs",
         "children": [
           {
-            "id": "5a10a7b0e7da9ca7",
+            "id": "66b48f10e667f6f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi e reti/La crittografia/MCD.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MCD"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.50260543823242
+    "width": 200
   },
   "right": {
     "id": "fab14c50fc143afa",
@@ -183,13 +179,15 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "5a10a7b0e7da9ca7",
+  "active": "bf31f39e7b673fc5",
   "lastOpenFiles": [
-    "Sistemi e reti/La crittografia/Crittografia.md",
     "Sistemi e reti/La crittografia/RSA.md",
-    "Sistemi e reti/La crittografia/MCD.md",
-    "Sistemi e reti/La crittografia/Schemi crittografici.md",
     "Sistemi e reti/La crittografia/Esigenze utente.md",
+    "TPSIT/HTTP (tpsit).md",
+    "Sistemi e reti/La crittografia/Algoritmo di Euclide.md",
+    "Sistemi e reti/La crittografia/Schemi crittografici.md",
+    "Sistemi e reti/La crittografia/Crittografia.md",
+    "Senza nome.md",
     "immagini/HTTP.pdf",
     "PacketTracer/Senza nome.md",
     "Sistemi e reti/PROGRAMMA 4°/Definizioni Utili/Rete generale.md",
@@ -197,7 +195,6 @@
     "Sistemi e reti/PROGRAMMA 4°/Classificazioni di reti/Scala Dimensionale.md",
     "Sistemi e reti/PROGRAMMA 4°/Classificazioni di reti/Classificazione delle Reti.md",
     "Sistemi e reti/protocollo IP.md",
-    "TPSIT/HTTP (tpsit).md",
     "TPSIT/Json (english).md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Multiplazione.md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Demultiplazione.md",
