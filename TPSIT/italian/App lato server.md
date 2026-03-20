@@ -26,3 +26,12 @@ Fasi di processo:
 7. Il programma genera una risposta HTTP.
 8. Il server accoglie l'output e lo invia al browser del client come risposta HTTP.
 9. Il processo CGI viene chiuso.
+Il server web trasmette le informazioni della richiesta al programma attraverso due meccanismi principali:
+- #### Variabili d'ambiente:
+	-  Request method, Indica il metodo HTTP utilizzato dal browser ( GET, POST ecc. ).
+	-  Query string, contiene i parametri presenti nell'[[URL]], server per recuperare i dati 
+	- Content length, indica il numero di byte presenti nel body della richiesta http e permette al programma CGI di conoscere la lunghezza dello standard input quando la richiesta utilizza il metodo post.
+	- Content type.
+	Queste variabili forniscono le info necessarie per interpretare le richieste HTTP necessarie per elaborare i dati inviati dal client.
+- #### Standard Input:
+	Quando una richiesta HTTP utilizza il metodo post i dati inviati dal client non vengono inseriti nell'[[URL]] ma nel body della richiesta http.
