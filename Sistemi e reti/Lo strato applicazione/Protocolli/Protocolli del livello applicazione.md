@@ -4,7 +4,7 @@ Questi protocolli non sono strettamente necessari ma **agevolano** molto alcune 
 I protocolli non rendono il canale logico affidabile ne lo rendono sicuro, sono solo **ausili alla comunicazione**. I veri protocolli che rendono possibile la comunicazione si trovano sul Layer inferiore, quindi il [[protocollo IP]] e il [[Protocollo TCP]].
 
 **I protocolli principali del Layer applicativo sono :**
-- [[Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP]] /[[HTTPS]]
+- [[HTTP]] /[[HTTPS]]
 - [[FTP]],
 - [[SMTP]],
 - [[POP3]],
