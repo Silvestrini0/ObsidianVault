@@ -106,3 +106,4 @@ Inoltre l'insieme di tutti i divisori comuni di b e R sono divisori comuni anche
 $$
 MCD(a,b) = MCD(b,R)
 $$
+vedi [[Convergenza Algoritmo di Euclide]]
