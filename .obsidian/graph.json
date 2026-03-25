@@ -6,8 +6,30 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Sistemi e reti\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:TPSIT  ",
+      "color": {
+        "a": 1,
+        "rgb": 6076630
+      }
+    },
+    {
+      "query": "path:PacketTracer  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    }
+  ],
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.347920997921,
@@ -17,6 +39,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.6732725786309632,
+  "scale": 0.486239921397466,
   "close": true
 }

@@ -1,9 +1,11 @@
 ## Introduzione
 Quando si parla di applicazioni lato server si fa riferimento a programmi che vengono eseguiti su server web e che hanno il compito di elaborare richieste provenienti da un client, tipicamente prodotte dal browser. Nel modello [[Client-Server]] web, il client invia una richiesta http con il browser, mentre il server risponde con una risposta http. 
+
 ## Pagine statiche/dinamiche 
 Se il server restituisce un semplice file html si parla di contenuto statico.
 Tuttavia molte applicazioni richiedono un comportamento dinamico, cioè la capacità di generare una risposta in funzione dei dati ricevuti dal client o dallo stato dell'applicazione.
 Per realizzare questo tipo di funzionalità è necessario eseguire un codice lato server.
+
 ### CGI
 Il CGI ( Common Gateway Interface ) è uno standard introdotto nei primi anni 90, che definisce un meccanismo attraverso il quale un server web riesce ad usufruire di programmi esterni per generare contenuti dinamici.
 
@@ -35,3 +37,5 @@ Il server web trasmette le informazioni della richiesta al programma attraverso 
 	Queste variabili forniscono le info necessarie per interpretare le richieste HTTP necessarie per elaborare i dati inviati dal client.
 - #### Standard Input:
 	Quando una richiesta HTTP utilizza il metodo post i dati inviati dal client non vengono inseriti nell'[[URL]] ma nel body della richiesta http.
+
+
