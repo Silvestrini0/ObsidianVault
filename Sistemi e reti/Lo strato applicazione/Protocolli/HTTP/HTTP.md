@@ -18,7 +18,7 @@ Il segmento di trasporto utilizzato è TCP nel cui campo dati viene incapsulato 
 **Nello specifico:**
 - Il browser analizza l'[[URL]] e recupera l'indirizzo simbolico (informazioni sul dominio).
 - Interroga il servizio [[DNS]] per recuperare l'id del server.
-- Si apre una connessione TCP verso il server utilizzando come [[Numero di porta]] 80 per il server e come IP quello fornito dal DNS.
+- Si apre una connessione TCP verso il server utilizzando come Numero di porta 80 per il server e come IP quello fornito dal DNS.
 - Il client invia una richiesta HTTP ( in cui viene utilizzato il comando/metodo **get**) attraverso la Socket associata alla connessione. Nella richiesta viene specificato il percorso per giungere al file e il dominio del server, recuperandolo dall' URL. E' importante includere il dominio del server perché in uno stesso server in esecuzione su una macchina avente un'assegnato id possono essere registrati più domini e il protocollo HTTP deve capire per quale dominio è stata fatta la richiesta.
 - Il server incapsula la risorsa richiesta nella risposta HTTP e la invia alla Socket del client (file.html).
 - A seconda delle versioni del protocollo il server chiede la chiusura unilaterale della connessione.

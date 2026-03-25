@@ -1,4 +1,4 @@
-Il checksum è calcolato sull'insieme di intestazione e dati ma l'intestazione non è quella dell'[[Intestazione UDP]] ma è una pseudo intestazione formata da alcuni campi dell'[[Intestazione TCP]] e alcuni campi dell'[[Intestazione IP]].
+Il checksum è calcolato sull'insieme di intestazione e dati ma l'intestazione non è quella dell'Intestazione UDP ma è una pseudo intestazione formata da alcuni campi dell'Intestazione TCP e alcuni campi dell'Intestazione IP.
 
 ![[Pasted image 20251109202855.png]]
 
@@ -13,7 +13,7 @@ N.B. Se provassi a ricalcolare il checksum con la stessa procedura senza inizial
 Il destinatario esegue le stesse operazioni del mittente però al punto 3 utilizza direttamente la sequenza di check sua inviata dal mittente. 
 Se il risultato è una sequenza di 16 zeri significa che il segmento è arrivato integro.
 
-Nel [[Protocollo UDP]] se il destinatario rileva un errore non viene richiesta la ritrasmissione.
+Nel [[UDP]] se il destinatario rileva un errore non viene richiesta la ritrasmissione.
 
 ![[Pasted image 20251109202928.png]]
 

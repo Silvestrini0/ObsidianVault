@@ -1,5 +1,5 @@
 ## Introduzione
-Quando si parla di applicazioni lato server si fa riferimento a programmi che vengono eseguiti su server web e che hanno il compito di elaborare richieste provenienti da un client, tipicamente prodotte dal browser. Nel modello [[Client-Server]] web, il client invia una richiesta http con il browser, mentre il server risponde con una risposta http. 
+Quando si parla di applicazioni lato server si fa riferimento a programmi che vengono eseguiti su server web e che hanno il compito di elaborare richieste provenienti da un client, tipicamente prodotte dal browser. Nel modello Client-Server web, il client invia una richiesta http con il browser, mentre il server risponde con una risposta http. 
 
 ## Pagine statiche/dinamiche 
 Se il server restituisce un semplice file html si parla di contenuto statico.
@@ -16,7 +16,7 @@ Il CGI nasce per superare questo limite, permettendo al server di delegare l'ela
 ### Funzionamento 
 Fasi di processo:
 1. Il browser invia una richiesta HTTP,
-2. Il server analizza l'[[URL]] richiesto e identifica che la risorsa corrisponde a uno script o un programma CGI,
+2. Il server analizza l'URL richiesto e identifica che la risorsa corrisponde a uno script o un programma CGI,
 3. Il server crea un nuovo processo nel sistema operativo,
 4. All'interno di questo processo viene inserito il programma CGI,
 5. Il server passa al programma le informazioni della richiesta tra cui:
@@ -31,11 +31,11 @@ Fasi di processo:
 Il server web trasmette le informazioni della richiesta al programma attraverso due meccanismi principali:
 - #### Variabili d'ambiente:
 	-  Request method, Indica il metodo HTTP utilizzato dal browser ( GET, POST ecc. ).
-	-  Query string, contiene i parametri presenti nell'[[URL]], server per recuperare i dati 
+	-  Query string, contiene i parametri presenti nell'URL, server per recuperare i dati 
 	- Content length, indica il numero di byte presenti nel body della richiesta http e permette al programma CGI di conoscere la lunghezza dello standard input quando la richiesta utilizza il metodo post.
 	- Content type.
 	Queste variabili forniscono le info necessarie per interpretare le richieste HTTP necessarie per elaborare i dati inviati dal client.
 - #### Standard Input:
-	Quando una richiesta HTTP utilizza il metodo post i dati inviati dal client non vengono inseriti nell'[[URL]] ma nel body della richiesta http.
+	Quando una richiesta HTTP utilizza il metodo post i dati inviati dal client non vengono inseriti nell'URL ma nel body della richiesta http.
 
 

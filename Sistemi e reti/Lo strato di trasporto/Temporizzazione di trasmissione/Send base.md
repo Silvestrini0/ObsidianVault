@@ -1,1 +1,0 @@
-E' un contatore che punta alla cella che contiene il [[Sequence number]] del byte più vecchio non ancora riscontrato. 

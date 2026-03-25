@@ -12,7 +12,7 @@ Il protocollo FTP si usa per trasferire file e si appoggia al protocollo TCP.
 - La porta 21 individua l'estremità del canale logico di controllo
 - La porta 20 individua l'estremità del canale logico dati
 
-**FTP usa il modello architetturale [[Client-Server]]**, quindi c'è un processo client in esecuzione sull'Host che vuole ricevere il file e un processo server FTP in esecuzione sulla macchina che vuole ricevere il file, e un processo server FTP in esecuzione sulla macchina che contiene il file da distribuire.
+FTP usa il modello architetturale Client-Server, quindi c'è un processo client in esecuzione sull'Host che vuole ricevere il file e un processo server FTP in esecuzione sulla macchina che vuole ricevere il file, e un processo server FTP in esecuzione sulla macchina che contiene il file da distribuire.
 
 **Il software FTP del server deve poter garantire:**
 - Il download e l'upload di file.

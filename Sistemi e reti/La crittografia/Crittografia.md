@@ -21,7 +21,7 @@ Ogni algoritmo di cifratura è composto da due elementi la regola e la chiave:
 Esempio di algoritmo --> sostituire ogni carattere di una parola con il carattere che occupa n posizioni più avanti nell'usuale ordine alfabetico. La chiave è il valore di n che indica qual è la distanza tra la lettera in chiaro e quella che si vuole sostituire al posto di quella in chiaro nell'usuale ordine alfabetico. Se n vale 1 e la parola è ADA diventa BB.
 
 vedi : [[Schemi crittografici]] 
-
+vedi : [[RSA]]
 
 
 

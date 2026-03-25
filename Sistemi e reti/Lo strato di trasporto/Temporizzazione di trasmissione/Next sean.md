@@ -1,1 +1,0 @@
-Punta alla cella che contiene il [[Sequence number]] del prossimo byte senza bisogno di ricevere altri riscontri.

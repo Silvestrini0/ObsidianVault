@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "86e145432c1c0005",
+        "id": "c5099f6c72807251",
         "type": "tabs",
         "children": [
           {
-            "id": "099c6bf250b4ea3c",
+            "id": "5a616e1443bda63b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TPSIT/italian/Sicurezza delle reti (it).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sicurezza delle reti (it)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 221.5
   },
   "right": {
     "id": "fab14c50fc143afa",
@@ -183,38 +179,39 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "099c6bf250b4ea3c",
+  "active": "5a616e1443bda63b",
   "lastOpenFiles": [
-    "TPSIT/italian/Sicurezza delle reti (it).md",
-    "TPSIT/italian/HTTP ( it ).md",
-    "Sistemi e reti/Lo strato di trasporto/ACK/Ack number.md",
-    "Sistemi e reti/Lo strato di trasporto/ACK/FLag ACK.md",
-    "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/ISN.md",
-    "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/Sequence number.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Strato di Trasporto.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/SAP ( service access point ).md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Numero di porta.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Il trasferimento non affidabile.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Multiplazione e Demultiplazione.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/I servizi dello strato di trasporto.md",
     "Sistemi e reti/Lo strato di trasporto/Numerazione dei segmenti/Numerazione dei segmenti.md",
-    "TPSIT/italian/App lato server.md",
-    "TPSIT/ukranian/HTTP ( ukr ).md",
-    "Sistemi e reti/La crittografia/RSA.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Entità di rete.md",
+    "Sistemi e reti/Lo strato di trasporto/Protocolli di trasporto/TCP.md",
+    "Sistemi e reti/Lo strato di trasporto/Protocolli di trasporto/Protocollo.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Il trasferimento affidabile.md",
+    "TPSIT/italian/Sicurezza delle reti (it).md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/La finestra di trasmissione.md",
     "Sistemi e reti/La crittografia/Crittografia.md",
-    "Sistemi e reti/La crittografia/Convergenza Algoritmo di Euclide.md",
-    "Sistemi e reti/La crittografia/Algoritmo di Euclide.md",
-    "Sistemi e reti/La crittografia/Schemi crittografici.md",
-    "Sistemi e reti/La crittografia/Esigenze utente.md",
-    "TPSIT/english/HTTP ( eng ).md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Checksum.md",
+    "Sistemi e reti/Lo strato di trasporto/Ack.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Temporizzazione di trasmissione.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/WS.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Send base.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Next sean.md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Canale Logico.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTT medio.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTO.md",
+    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTT.md",
+    "Sistemi e reti/Lo strato di trasporto/Protocolli di trasporto/UDP.md",
+    "Sistemi e reti/Lo strato applicazione/Protocolli/FTP.md",
+    "Sistemi e reti/Lo strato di trasporto/Protocolli di trasporto",
     "TPSIT/ukranian",
     "TPSIT/english",
     "TPSIT/italian",
-    "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTP.md",
-    "TPSIT/Json (english).md",
     "immagini/HTTP.pdf",
-    "PacketTracer/Senza nome.md",
-    "Sistemi e reti/PROGRAMMA 4°/Definizioni Utili/Rete generale.md",
-    "Sistemi e reti/PROGRAMMA 4°/Classificazioni di reti/Tecnologia Trasmissiva.md",
-    "Sistemi e reti/PROGRAMMA 4°/Classificazioni di reti/Scala Dimensionale.md",
-    "Sistemi e reti/PROGRAMMA 4°/Classificazioni di reti/Classificazione delle Reti.md",
-    "Sistemi e reti/protocollo IP.md",
-    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Multiplazione.md",
-    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Demultiplazione.md",
     "TPSIT",
     "immagini/Pasted image 20260305103515.png",
     "immagini/Pasted image 20260305103141.png",

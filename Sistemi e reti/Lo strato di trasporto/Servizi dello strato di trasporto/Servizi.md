@@ -1,1 +1,0 @@
-Un servizio è un'insieme di funzioni e procedure che un livello mette a disposizione per il livello superiore.
