@@ -26,12 +26,35 @@ Fasi di processo:
 ## Variabili d'ambiente e Standard input
 Il server web trasmette le informazioni della richiesta al programma attraverso due meccanismi principali:
 - Variabili d'ambiente:
-	-  Request method, Indica il metodo HTTP utilizzato dal browser ( GET, POST ecc. ).
+	-  Request method, Indica il metodo HTTP utilizzato dal browser ( GET ).
 	-  Query string, contiene i parametri presenti nell' URL, server per recuperare i dati 
 	- Content length, indica il numero di byte presenti nel body della richiesta http e permette al programma CGI di conoscere la lunghezza dello standard input quando la richiesta utilizza il metodo post.
 	- Content type.
 	Queste variabili forniscono le info necessarie per interpretare le richieste HTTP necessarie per elaborare i dati inviati dal client.
 - Standard Input:
-	Quando una richiesta HTTP utilizza il metodo post i dati inviati dal client non vengono inseriti nell' URL ma nel body della richiesta http.
+	Quando una richiesta HTTP utilizza il metodo post i dati inviati dal client non vengono inseriti nell' URL ma nel body della richiesta http. 
+Sia le variabili d'ambiente sia lo standard input vengono usati nelle CGI per acquisire i dati necessari alla generazione della pagina dinamica. 
+## Limiti delle CGI
+Il limite riguarda velocità e scalabilità : per ogni richiesta il sistema deve :
+- Creare un nuovo processo,
+- Caricare il programma CGI,
+- Inizializzare l' ambiente di esecuzione,
+- Eseguire il codice applicativo, 
+- Terminare il processo
+Il processo applicativo è quindi esterno al server web. 
 
 
+## Servlet
+Le Servlet sono componenti software scritti in java che vengono eseguiti lato server. 
+Hanno il compito di gestire richieste dal lato client. 
+### Funzionamento
+- **Riceve una richiesta Http,**
+- **Elabora la richiesta,** 
+	Cioè esegue la logica dell'applicazione server side che può includere:
+	- l'analisi dei parametri ricevuti, 
+	- l'accesso al db o altre risorse,
+	- L' elaborazione dei dati necessari per generare la risposta.
+- **Produce la risposta**
+
+### Servlet scritte in Java
+Le Servlet sono state scritte principalmente in java per la sua portabilità ( JVM ) e per l' ottima gestione dei thread. Gestione automatica della memoria, java utilizza un sistema garbage collection che is occupa di liberare automaticamente la memoria non più utilizzata.
