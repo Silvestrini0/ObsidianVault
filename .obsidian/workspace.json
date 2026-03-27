@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Italiano.md",
+                "file": "TPSIT/italian/App lato server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Italiano"
+              "title": "App lato server"
             }
           }
         ]
@@ -185,7 +185,14 @@
   },
   "active": "5a616e1443bda63b",
   "lastOpenFiles": [
+    "TPSIT/italian/Sicurezza delle reti (it).md",
+    "TPSIT/italian/App lato server.md",
+    "TPSIT/italian/HTTP ( it ).md",
     "Italiano.md",
+    "README.md",
+    "Intestazione TCP.md",
+    "Pasted image 20260326111317.png",
+    "immagini/42-ungaretti.pdf",
     "Sistemi e reti/Lo strato applicazione/Protocolli/HTTP/HTTPS.md",
     "Sistemi e reti/La crittografia/Algoritmo di Euclide.md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Strato di Trasporto.md",
@@ -199,7 +206,6 @@
     "Sistemi e reti/Lo strato di trasporto/Protocolli di trasporto/TCP.md",
     "Sistemi e reti/Lo strato di trasporto/Protocolli di trasporto/Protocollo.md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Il trasferimento affidabile.md",
-    "TPSIT/italian/Sicurezza delle reti (it).md",
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/La finestra di trasmissione.md",
     "Sistemi e reti/La crittografia/Crittografia.md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Checksum.md",
@@ -207,10 +213,6 @@
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Temporizzazione di trasmissione.md",
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/WS.md",
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Send base.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Next sean.md",
-    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Canale Logico.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTT medio.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/RTO.md",
     "Sistemi e reti/Lo strato di trasporto/Protocolli di trasporto",
     "TPSIT/ukranian",
     "TPSIT/english",
@@ -228,7 +230,6 @@
     "Sistemi e reti/PROGRAMMA 4°/Classificazioni di reti",
     "immagini/Pasted image 20260207211529.png",
     "Sistemi e reti/PROGRAMMA 4°/Tecnologia Trasmissiva",
-    "immagini/Pasted image 20260207210704.png",
-    "immagini/Pasted image 20260207210124.png"
+    "immagini/Pasted image 20260207210704.png"
   ]
 }
