@@ -56,3 +56,22 @@ Hanno il compito di gestire richieste dal lato client.
 
 ## Servlet scritte in Java
 Le Servlet sono state scritte principalmente in java per la sua portabilità ( JVM ) e per l' ottima gestione dei thread. Gestione automatica della memoria, java utilizza un sistema garbage collection che is occupa di liberare automaticamente la memoria non più utilizzata.
+
+## Servlet Container
+Una Servlet non viene eseguita direttamente dal sistema operativo ma viene eseguita all'interno di un ambiente software, chiamato Servlet Container.
+Il Servlet container è un componente del server applicativo che si occupa di eseguire le Servlet  e di processare le richieste HTTP.
+### Funzionamento
+- Caricamento e creazione della Servlet :
+	- Il container provvede a caricare la servlet, cioè procede ad individuare la classe java e a renderla disponibile all'interno dell'ambiente di esecuzione 
+- Individuazione della Servlet corretta: 
+	- Il container è responsabile di processare una richiesta HTTP,
+	- Quando arriva una richiesta il container analizza l'URL richiesto e determina quale servlet è associata a quella specifica risorsa, sulla base della configurazione dell'applicazione. Questo è necessario perché all'interno della stessa applicazione web possono essere presenti più Servlet, ogni una associata ad un determinato percorso URL e responsabili di una specifica funzionalità.
+	- Una volta individuata la servlet corretta il container inoltra a essa la richiesta affinché possa elaborarla e generare la risposta da inviare al client.
+### Ciclo di vita delle servlet 
+Il ciclo di vita di una servlet è gestito da un container, e si articola:
+- Caricamento / Instanziazione, 
+- inizializzazione, ( fase di configurazione )
+- Service, ( esegue le sue funzioni )
+- Distruzione, ( libera memoria )
+### Gestione delle richieste simultanee
+Il container coordina i thread in modo tale da sfruttare un solo processo per gestire le richieste simultanee dei client. 
