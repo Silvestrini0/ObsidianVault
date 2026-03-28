@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storia.md",
+                "file": "TPSIT/italian/App lato server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Storia"
+              "title": "App lato server"
             }
           }
         ]
@@ -183,15 +183,18 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "5a616e1443bda63b",
+  "active": "bf31f39e7b673fc5",
   "lastOpenFiles": [
+    "Storia/Storia.md",
+    "Italiano/Italiano.md",
     "TPSIT/italian/App lato server.md",
-    "Storia.md",
-    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Canale Logico.md",
-    "Italiano.md",
-    "README.md",
+    "Storia",
+    "Senza nome.md",
+    "Italiano",
     "TPSIT/italian/Sicurezza delle reti (it).md",
     "TPSIT/italian/HTTP ( it ).md",
+    "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Canale Logico.md",
+    "README.md",
     "Intestazione TCP.md",
     "immagini/Pasted image 20260326111317.png",
     "immagini/42-ungaretti.pdf",
@@ -211,8 +214,6 @@
     "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/La finestra di trasmissione.md",
     "Sistemi e reti/La crittografia/Crittografia.md",
     "Sistemi e reti/Lo strato di trasporto/Servizi dello strato di trasporto/Checksum.md",
-    "Sistemi e reti/Lo strato di trasporto/Ack.md",
-    "Sistemi e reti/Lo strato di trasporto/Temporizzazione di trasmissione/Temporizzazione di trasmissione.md",
     "Sistemi e reti/Lo strato di trasporto/Protocolli di trasporto",
     "TPSIT/ukranian",
     "TPSIT/english",
@@ -227,9 +228,7 @@
     "immagini/Pasted image 20260207221512.png",
     "immagini/Pasted image 20260207213656.png",
     "Sistemi e reti/PROGRAMMA 4°/Tipi di LAN",
-    "Sistemi e reti/PROGRAMMA 4°/Classificazioni di reti",
     "immagini/Pasted image 20260207211529.png",
-    "Sistemi e reti/PROGRAMMA 4°/Tecnologia Trasmissiva",
     "immagini/Pasted image 20260207210704.png"
   ]
 }

@@ -32,4 +32,3 @@
 - Fine della _solidarietà nazionale_ : nuova formula di coalizione pentapartito centro sinistra e liberali.
 - Nuovo miracolo italiano : crescita del settore terziario, l'Italia diventa la quinta potenza economica mondiale.
 - Corruzione politica : scandalo della Loggia P2, crisi della DC e ascesa di Craxi ( 1983 ).
-- 
